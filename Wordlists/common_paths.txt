@@ -1,0 +1,15 @@
+admin
+login
+backup
+.git
+.env
+config
+api
+uploads
+images
+robots.txt
+sitemap.xml
+test
+dev
+old
+tmp
