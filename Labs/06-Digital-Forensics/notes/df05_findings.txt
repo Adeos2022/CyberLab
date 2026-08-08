@@ -1,0 +1,45 @@
+DF-05 — Forensic Timeline Analysis
+
+Evidence:
+Labs/06-Digital-Forensics/evidence/df05_timeline/
+
+Baseline:
+Labs/06-Digital-Forensics/evidence/df05_timeline_original_hashes.txt
+
+Analysis:
+
+A controlled forensic evidence directory was established containing
+four original files. SHA-256 hashes and filesystem timestamps were
+captured before a simulated modification event.
+
+Controlled event:
+
+1. document.txt was modified.
+2. new_artifact.txt was subsequently created.
+
+Timeline findings:
+
+1. activity.log remained unchanged.
+2. config.conf remained unchanged.
+3. temp_artifact.tmp remained unchanged.
+4. document.txt changed from 29 bytes to 59 bytes.
+5. document.txt received a later modification timestamp.
+6. The SHA-256 hash of document.txt changed from its preserved
+   baseline value.
+7. new_artifact.txt was not present in the original baseline and was
+   identified as a newly created artifact.
+8. The controlled event therefore produced both a file modification
+   and a new-file creation event.
+
+Assessment:
+
+The combination of filesystem timestamps, file sizes, and SHA-256
+comparisons successfully identified changes within the controlled
+evidence directory.
+
+The results demonstrate the value of establishing a forensic baseline
+before investigating subsequent file-system activity.
+
+Conclusion:
+
+DF-05 forensic timeline analysis PASSED.

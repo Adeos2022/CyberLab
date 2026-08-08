@@ -1,0 +1,72 @@
+============================================================
+SECURITY REPORT: DF-08 Deleted File Detection and Evidence Recovery
+Generated: 2026-08-08 20:03:32
+============================================================
+
+DF-08 — Deleted File Detection & Evidence Recovery
+
+Case:
+Controlled CyberLab forensic investigation
+
+Evidence directory:
+Labs/06-Digital-Forensics/evidence/df08_case/
+
+Baseline:
+Labs/06-Digital-Forensics/evidence/df08_baseline_hashes.txt
+
+Analysis:
+
+Three original evidence files were established:
+
+1. employee_note.txt
+2. activity.log
+3. system.conf
+
+SHA-256 hashes were captured before the controlled deletion event.
+
+Deletion detection:
+
+1. activity.log remained unchanged from the baseline.
+2. system.conf remained unchanged from the baseline.
+3. employee_note.txt was subsequently removed from the evidence
+   directory.
+4. Baseline comparison identified employee_note.txt as missing /
+   potentially deleted.
+
+Recovery:
+
+A preserved recovery_source copy of employee_note.txt was maintained
+for the controlled laboratory exercise.
+
+The recovery-source SHA-256 value was:
+
+ffca82abba0e7aaca01f4753f2698f35b196d51f2e5769b99f68251bcd48aba7
+
+The recovered artifact was copied into a separate recovered directory
+without restoring it over the original evidence path.
+
+Recovery integrity verification produced the same SHA-256 value:
+
+ffca82abba0e7aaca01f4753f2698f35b196d51f2e5769b99f68251bcd48aba7
+
+Assessment:
+
+The baseline comparison successfully detected the disappearance of
+employee_note.txt.
+
+The recovered artifact produced a SHA-256 value identical to the
+original baseline hash, demonstrating cryptographic integrity of the
+controlled recovery copy.
+
+The evidence establishes that employee_note.txt existed at baseline
+and was absent from its original path during subsequent examination.
+The controlled dataset does not independently establish who or what
+caused the deletion.
+
+Conclusion:
+
+DF-08 deleted file detection and evidence recovery PASSED.
+
+============================================================
+End of report
+============================================================

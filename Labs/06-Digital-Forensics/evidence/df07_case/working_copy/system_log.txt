@@ -1,0 +1,3 @@
+Aug 08 20:30:01 cyberlab service started
+Aug 08 20:31:14 cyberlab authentication event recorded
+Aug 08 20:32:45 cyberlab monitoring event recorded

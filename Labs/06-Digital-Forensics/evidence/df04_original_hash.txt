@@ -1,0 +1,1 @@
+4ebd5ebd68c8ac7c015939d1862c3a75e5263b9686c2b9b8478314c589759664  Labs/06-Digital-Forensics/evidence/suspicious_artifact.txt

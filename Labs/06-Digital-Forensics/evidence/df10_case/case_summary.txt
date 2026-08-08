@@ -1,0 +1,13 @@
+CYBERLAB DF-10 CONTROLLED FORENSIC CASE
+
+Case ID:
+CYBERLAB-DF10-2026-08-08
+
+Purpose:
+Controlled forensic case-closure and final evidence validation exercise.
+
+The case contains controlled laboratory artifacts used to demonstrate
+evidence inventory, hashing, metadata validation, and final case
+documentation.
+
+No real malicious activity is represented.

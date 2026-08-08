@@ -1,0 +1,5 @@
+2026-08-08 19:13:34.5007860640 | 24 bytes | Labs/06-Digital-Forensics/evidence/df05_timeline/activity.log
+2026-08-08 19:13:34.5007860640 | 28 bytes | Labs/06-Digital-Forensics/evidence/df05_timeline/config.conf
+2026-08-08 19:13:34.5007860640 | 30 bytes | Labs/06-Digital-Forensics/evidence/df05_timeline/temp_artifact.tmp
+2026-08-08 19:14:23.5007860670 | 59 bytes | Labs/06-Digital-Forensics/evidence/df05_timeline/document.txt
+2026-08-08 19:14:45.7007860680 | 41 bytes | Labs/06-Digital-Forensics/evidence/df05_timeline/new_artifact.txt

@@ -1,0 +1,44 @@
+============================================================
+SECURITY REPORT: DF-03 Evidence Metadata and String Extraction
+Generated: 2026-08-08 18:54:43
+============================================================
+
+DF-03 — Evidence Metadata & String Extraction
+
+Evidence:
+Labs/06-Digital-Forensics/evidence/test.txt
+
+Analysis tools:
+Scripts/metadata_extractor.py
+Scripts/strings_extractor.py
+
+Metadata findings:
+
+1. The evidence file size was 65 bytes.
+2. The reported creation time was 2026-08-08 18:30:21.
+3. The reported modification time was 2026-08-08 18:30:21.
+4. No EXIF metadata was present.
+5. The file was identified as a non-image text file by the EXIF
+   extraction process.
+
+String extraction findings:
+
+1. Two printable strings were extracted.
+2. The first string was:
+   "CyberLab integrity test"
+3. The second string was:
+   "CONTROLLED FORENSIC TEST - FILE MODIFIED"
+4. The interesting-string filter identified zero URLs, IP addresses,
+   or filesystem paths.
+
+Assessment:
+The metadata and string-extraction tools successfully examined the
+controlled evidence file. The extracted strings confirm the expected
+contents of the laboratory test file.
+
+Conclusion:
+DF-03 metadata and string extraction test PASSED.
+
+============================================================
+End of report
+============================================================

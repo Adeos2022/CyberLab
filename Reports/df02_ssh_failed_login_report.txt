@@ -1,0 +1,37 @@
+============================================================
+SECURITY REPORT: DF-02 SSH Failed-Login Analysis
+Generated: 2026-08-08 18:45:35
+============================================================
+
+DF-02 — SSH Failed-Login Analysis
+
+Evidence:
+Scripts/sample.log
+
+Analysis tool:
+Scripts/log_parser.py
+
+Findings:
+
+1. Four failed SSH authentication attempts were identified.
+2. The username "root" was targeted three times.
+3. The username "guest" was targeted once.
+4. Source IP 192.168.1.50 generated three failed attempts.
+5. Source IP 10.0.0.5 generated one failed attempt.
+6. Two successful "admin" authentication events were present in the
+   sample log but were correctly excluded from the failed-login counts.
+
+Primary observation:
+192.168.1.50 generated the highest number of failed authentication
+attempts and repeatedly targeted the root account.
+
+Assessment:
+The repeated failures are suspicious within this controlled laboratory
+dataset, but the evidence alone does not establish malicious intent.
+
+Conclusion:
+DF-02 SSH failed-login analysis PASSED.
+
+============================================================
+End of report
+============================================================

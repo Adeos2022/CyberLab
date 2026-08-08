@@ -1,0 +1,4 @@
+2026-08-08 19:21:55.9407860930 | 355 bytes | Labs/06-Digital-Forensics/evidence/df06_case/auth.log
+2026-08-08 19:21:55.9607860930 | 77 bytes | Labs/06-Digital-Forensics/evidence/df06_case/notes.txt
+2026-08-08 19:21:55.9907860930 | 46 bytes | Labs/06-Digital-Forensics/evidence/df06_case/system.conf
+2026-08-08 19:21:56.0107860930 | 62 bytes | Labs/06-Digital-Forensics/evidence/df06_case/downloaded_file.txt

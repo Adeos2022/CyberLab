@@ -1,0 +1,4 @@
+aab5fcb2f252f261e181e51548cf83ef9ae933f9174c060cf1647b0f7e027943  Labs/06-Digital-Forensics/evidence/df06_case/auth.log
+91b2db5c70ef8974eaed9f8a0e9bff1a9179321a7997fca2b8f8516679b5ffef  Labs/06-Digital-Forensics/evidence/df06_case/downloaded_file.txt
+004e13d1a323d64245c6a36ed6aa34739bbbf786a09ea397dd4775a1fd5face9  Labs/06-Digital-Forensics/evidence/df06_case/notes.txt
+1a445cd619fcd791afbc9740181a52ff284ab78c894ce648b6bb1260b3750191  Labs/06-Digital-Forensics/evidence/df06_case/system.conf

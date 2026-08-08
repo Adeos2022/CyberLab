@@ -1,0 +1,5 @@
+CYBERLAB DF-09 CONTROLLED DOCUMENT
+This document represents a user-created file in a controlled
+forensic metadata and event-correlation exercise.
+
+CONTROLLED EVENT: user document modified

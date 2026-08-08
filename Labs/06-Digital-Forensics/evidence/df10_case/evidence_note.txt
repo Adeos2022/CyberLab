@@ -1,0 +1,10 @@
+CYBERLAB DF-10 EVIDENCE NOTE
+
+Evidence status:
+CONTROLLED LABORATORY EVIDENCE
+
+Integrity:
+SHA-256 validation required before case closure.
+
+Handling:
+Evidence should remain unchanged after final validation.

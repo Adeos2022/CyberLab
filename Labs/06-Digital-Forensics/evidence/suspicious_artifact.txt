@@ -1,0 +1,14 @@
+CYBERLAB CONTROLLED FORENSIC ARTIFACT
+
+Status: TEST SAMPLE
+
+Source: internal laboratory exercise
+Analyst: CyberLab
+
+Suspicious indicators:
+http://example.com/download
+192.168.1.50
+/tmp/suspicious_payload
+/usr/local/bin/test-tool
+
+This file is intentionally created for forensic analysis.

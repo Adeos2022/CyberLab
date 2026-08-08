@@ -1,0 +1,4 @@
+Aug 08 20:01:02 cyberlab sshd[2001]: Failed password for admin from 10.10.10.25 port 22
+Aug 08 20:01:15 cyberlab sshd[2002]: Failed password for admin from 10.10.10.25 port 22
+Aug 08 20:02:01 cyberlab sshd[2003]: Accepted password for analyst from 10.10.10.10 port 22
+Aug 08 20:04:22 cyberlab sshd[2004]: Failed password for root from 10.10.10.25 port 22

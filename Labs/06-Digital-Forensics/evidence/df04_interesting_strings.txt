@@ -1,0 +1,7 @@
+
+Extracted 4 string(s) from Labs/06-Digital-Forensics/evidence/suspicious_artifact.txt:
+--------------------------------------------------
+http://example.com/download
+192.168.1.50
+/tmp/suspicious_payload
+/usr/local/bin/test-tool

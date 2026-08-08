@@ -1,0 +1,27 @@
+  File: Labs/06-Digital-Forensics/evidence/df09_case/config.conf
+  Size: 53        	Blocks: 8          IO Block: 4096   regular file
+Device: 259,7	Inode: 4476292     Links: 1
+Access: (0600/-rw-------)  Uid: (10635/ u0_a635)   Gid: (10635/ u0_a635)
+Context: u:object_r:app_data_file:s0:c123,c258,c512,c768
+Access: 2026-08-08 20:06:17.490786252 +0300
+Modify: 2026-08-08 20:06:17.520786252 +0300
+Change: 2026-08-08 20:06:17.520786252 +0300
+ Birth: -
+  File: Labs/06-Digital-Forensics/evidence/df09_case/system_log.txt
+  Size: 136       	Blocks: 8          IO Block: 4096   regular file
+Device: 259,7	Inode: 4480425     Links: 1
+Access: (0600/-rw-------)  Uid: (10635/ u0_a635)   Gid: (10635/ u0_a635)
+Context: u:object_r:app_data_file:s0:c123,c258,c512,c768
+Access: 2026-08-08 20:06:17.460786252 +0300
+Modify: 2026-08-08 20:06:17.490786252 +0300
+Change: 2026-08-08 20:06:17.490786252 +0300
+ Birth: -
+  File: Labs/06-Digital-Forensics/evidence/df09_case/user_document.txt
+  Size: 146       	Blocks: 8          IO Block: 4096   regular file
+Device: 259,7	Inode: 4481088     Links: 1
+Access: (0600/-rw-------)  Uid: (10635/ u0_a635)   Gid: (10635/ u0_a635)
+Context: u:object_r:app_data_file:s0:c123,c258,c512,c768
+Access: 2026-08-08 20:06:17.410786252 +0300
+Modify: 2026-08-08 20:06:17.450786252 +0300
+Change: 2026-08-08 20:06:17.450786252 +0300
+ Birth: -

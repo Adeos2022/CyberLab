@@ -1,0 +1,70 @@
+============================================================
+SECURITY REPORT: DF-09 File Metadata and Event Correlation
+Generated: 2026-08-08 20:12:25
+============================================================
+
+DF-09 — File Metadata & Event Correlation
+
+Case:
+Controlled CyberLab forensic investigation
+
+Evidence directory:
+Labs/06-Digital-Forensics/evidence/df09_case/
+
+Baseline metadata:
+Labs/06-Digital-Forensics/evidence/df09_baseline_metadata.txt
+
+Baseline hashes:
+Labs/06-Digital-Forensics/evidence/df09_baseline_hashes.txt
+
+Analysis:
+
+Three original evidence files were established:
+
+1. user_document.txt
+2. system_log.txt
+3. config.conf
+
+A baseline metadata record and SHA-256 hash set were established
+before the controlled forensic event.
+
+Event correlation:
+
+1. config.conf remained unchanged from the established baseline.
+2. system_log.txt was modified during the controlled event.
+3. user_document.txt was modified during the controlled event.
+4. new_artifact.txt was subsequently created.
+5. File timestamps established the chronological order of the
+   controlled modifications and artifact creation.
+
+Hash correlation:
+
+The SHA-256 value for config.conf remained identical to its
+baseline value.
+
+The SHA-256 values for system_log.txt and user_document.txt changed
+after the controlled events, confirming content modification.
+
+new_artifact.txt was not present in the baseline hash set and was
+identified as a newly created artifact.
+
+Metadata assessment:
+
+Filesystem metadata, file sizes, timestamps, and SHA-256 values were
+used together to distinguish unchanged, modified, and newly created
+artifacts.
+
+The controlled event sequence demonstrates temporal correlation
+between the simulated analyst review, document modification, and
+creation of a new artifact.
+
+The evidence does not independently establish a real-world malicious
+actor or attribution.
+
+Conclusion:
+
+DF-09 file metadata and event correlation analysis PASSED.
+
+============================================================
+End of report
+============================================================

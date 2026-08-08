@@ -1,0 +1,5 @@
+aab5fcb2f252f261e181e51548cf83ef9ae933f9174c060cf1647b0f7e027943  Labs/06-Digital-Forensics/evidence/df06_case/auth.log
+d47dd888e9bb52421754471d5549b0805fa3fe3cfa4d9b01587f07a0cd72fdb3  Labs/06-Digital-Forensics/evidence/df06_case/downloaded_file.txt
+4d9eb9fa3b63f4fa47066db14bd9b57aace2967906b3e40385bebe838e469d22  Labs/06-Digital-Forensics/evidence/df06_case/notes.txt
+f2ff5f0bc935416dce551c24ed19ea7f9ac5bd33024985962c3e67c4a09056ef  Labs/06-Digital-Forensics/evidence/df06_case/suspicious_script.sh
+1a445cd619fcd791afbc9740181a52ff284ab78c894ce648b6bb1260b3750191  Labs/06-Digital-Forensics/evidence/df06_case/system.conf

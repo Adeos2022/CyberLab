@@ -1,0 +1,3 @@
+b62561bd231906487b2ae186447d2a6322724429eb60ebfbf7fb7afc09995140  Labs/06-Digital-Forensics/evidence/df07_case/acquisition/artifact.txt
+0cf36fca806d6e98a7d16f921a0299df56f7ba2d08442d42252296e6f128d5e9  Labs/06-Digital-Forensics/evidence/df07_case/acquisition/incident_notes.txt
+1917387cd2b1f6f77be36e26d4ac5d3bd84a4221a500aab95c0820851bb213e4  Labs/06-Digital-Forensics/evidence/df07_case/acquisition/system_log.txt

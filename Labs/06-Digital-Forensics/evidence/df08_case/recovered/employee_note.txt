@@ -1,0 +1,4 @@
+CYBERLAB DF-08 CONTROLLED ARTIFACT
+Employee workstation investigation sample.
+This file represents a controlled document that existed before
+the simulated deletion event.

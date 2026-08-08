@@ -1,0 +1,9 @@
+
+Metadata for: Labs/06-Digital-Forensics/evidence/suspicious_artifact.txt
+--------------------------------------------------
+Basic file info:
+  File size (bytes): 288
+  Created: 2026-08-08 19:01:15
+  Modified: 2026-08-08 19:01:15
+
+No EXIF data found (not an image, or metadata was stripped).

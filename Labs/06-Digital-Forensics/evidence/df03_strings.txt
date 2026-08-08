@@ -1,0 +1,5 @@
+
+Extracted 2 string(s) from /data/data/com.termux/files/home/CyberLab/Labs/06-Digital-Forensics/evidence/test.txt:
+--------------------------------------------------
+CyberLab integrity test
+CONTROLLED FORENSIC TEST - FILE MODIFIED

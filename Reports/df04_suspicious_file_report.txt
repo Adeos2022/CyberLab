@@ -1,0 +1,63 @@
+============================================================
+SECURITY REPORT: DF-04 Controlled Suspicious File Investigation
+Generated: 2026-08-08 19:07:30
+============================================================
+
+DF-04 — Controlled Suspicious File Investigation
+
+Evidence:
+Labs/06-Digital-Forensics/evidence/suspicious_artifact.txt
+
+Analysis tools:
+sha256sum
+file
+Scripts/metadata_extractor.py
+Scripts/strings_extractor.py
+
+Hash analysis:
+
+Original SHA-256:
+4ebd5ebd68c8ac7c015939d1862c3a75e5263b9686c2b9b8478314c589759664
+
+File identification:
+
+The file utility identified the artifact as:
+ASCII text
+
+Metadata findings:
+
+File size: 288 bytes
+Created: 2026-08-08 19:01:15
+Modified: 2026-08-08 19:01:15
+EXIF metadata: None
+
+String analysis:
+
+Ten printable strings were extracted.
+
+Four strings were identified as potentially interesting indicators:
+
+1. http://example.com/download
+2. 192.168.1.50
+3. /tmp/suspicious_payload
+4. /usr/local/bin/test-tool
+
+Assessment:
+
+The artifact contains several intentionally planted indicators
+including a URL, an IP address, and Unix-style filesystem paths.
+
+These indicators are suspicious-looking but do not independently
+establish malicious activity. The artifact was deliberately created
+as a controlled CyberLab forensic sample.
+
+The original SHA-256 hash was captured before analysis to establish
+an integrity reference.
+
+Conclusion:
+
+DF-04 controlled suspicious-file investigation PASSED.
+
+============================================================
+End of report
+============================================================

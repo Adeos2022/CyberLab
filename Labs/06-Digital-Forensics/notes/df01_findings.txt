@@ -1,0 +1,21 @@
+DF-01 — File Integrity Detection
+
+Evidence:
+Labs/06-Digital-Forensics/evidence/test.txt
+
+Original SHA-256:
+47351700727aadfee7700c14b3c2ec156079fcd5d0c34b8f6f0b062a0c9fddd3
+
+Modified SHA-256:
+9aec462edfee880f9d82e992f5551034a768108865ecde7c74b175080b98de45
+
+Integrity monitor result:
+MODIFIED (1)
+
+Finding:
+The SHA-256 hash of test.txt changed after a controlled modification.
+The integrity-monitoring script successfully detected the modification
+against the preserved baseline.
+
+Conclusion:
+DF-01 integrity detection test PASSED.

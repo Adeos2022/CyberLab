@@ -1,0 +1,1 @@
+Labs/06-Digital-Forensics/evidence/suspicious_artifact.txt: ASCII text

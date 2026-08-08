@@ -1,0 +1,73 @@
+DF-06 — Evidence Correlation & Incident Timeline
+
+Case:
+Controlled CyberLab forensic investigation
+
+Evidence directory:
+Labs/06-Digital-Forensics/evidence/df06_case/
+
+Baseline:
+Labs/06-Digital-Forensics/evidence/df06_baseline_hashes.txt
+Labs/06-Digital-Forensics/evidence/df06_baseline_timeline.txt
+
+Analysis tools:
+sha256sum
+find
+Scripts/log_parser.py
+Scripts/strings_extractor.py
+
+Authentication findings:
+
+1. Three failed SSH authentication attempts were identified.
+2. The username "admin" was targeted twice.
+3. The username "root" was targeted once.
+4. Source IP 10.10.10.25 generated all three failed attempts.
+5. A successful authentication for analyst from 10.10.10.10
+   was present and was correctly excluded from failed-login counts.
+
+File-system correlation:
+
+1. auth.log remained unchanged from the established baseline.
+2. system.conf remained unchanged from the established baseline.
+3. notes.txt was modified after the baseline was established.
+4. downloaded_file.txt was modified after the baseline was established.
+5. suspicious_script.sh was not present in the baseline and was
+   identified as a newly created artifact.
+
+Timeline correlation:
+
+1. The original evidence baseline was established before the
+   controlled incident activity.
+2. notes.txt was subsequently modified.
+3. suspicious_script.sh was subsequently created.
+4. downloaded_file.txt was subsequently modified.
+5. The resulting filesystem timestamps and SHA-256 comparisons
+   distinguish unchanged, modified, and newly created artifacts.
+
+Suspicious artifact analysis:
+
+The newly created suspicious_script.sh contained a shell script
+reference to:
+
+http://example.com/update
+
+The URL is an intentionally planted indicator in this controlled
+laboratory scenario.
+
+Assessment:
+
+The evidence demonstrates a controlled sequence containing repeated
+failed SSH authentication attempts followed by filesystem changes
+and creation of a script containing a suspicious-looking URL.
+
+The evidence establishes temporal and artifact correlation within the
+laboratory dataset. It does not independently establish that the
+source IP 10.10.10.25 caused the filesystem changes, nor does it
+establish real-world malicious activity.
+
+The SHA-256 baseline successfully distinguished modified and newly
+created artifacts from unchanged files.
+
+Conclusion:
+
+DF-06 evidence correlation and incident timeline analysis PASSED.

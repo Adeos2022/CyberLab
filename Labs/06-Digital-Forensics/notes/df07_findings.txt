@@ -1,0 +1,69 @@
+DF-07 — Evidence Acquisition, Preservation & Integrity Verification
+
+Case:
+CYBERLAB-DF07-2026-08-08
+
+Evidence source:
+Labs/06-Digital-Forensics/evidence/df07_case/original/
+
+Acquisition:
+Labs/06-Digital-Forensics/evidence/df07_case/acquisition/
+
+Working copy:
+Labs/06-Digital-Forensics/evidence/df07_case/working_copy/
+
+Analysis:
+
+Three controlled evidence files were established as the original
+forensic evidence:
+
+1. artifact.txt
+2. incident_notes.txt
+3. system_log.txt
+
+The original files were hashed using SHA-256 before acquisition.
+
+A file-level acquisition was then performed using cp -p. The
+acquisition copy preserved the observed file timestamps, sizes, and
+content.
+
+SHA-256 verification confirmed that the acquisition hashes matched
+the original evidence hashes.
+
+A separate working copy was created from the verified acquisition.
+The working-copy SHA-256 values also matched the original and
+acquisition values.
+
+File identification:
+
+All three acquired artifacts were identified as ASCII text.
+
+Content analysis:
+
+artifact.txt contained a controlled laboratory evidence statement
+and explicitly stated that no real malicious content was present.
+
+incident_notes.txt documented the controlled forensic acquisition
+exercise.
+
+system_log.txt contained three controlled laboratory events:
+service startup, an authentication event, and a monitoring event.
+
+Integrity assessment:
+
+Original, acquisition, and working-copy hashes matched for all three
+evidence files.
+
+The original evidence was preserved and subsequent analysis was
+performed using the working copy.
+
+Chain-of-custody assessment:
+
+A chain-of-custody record was established documenting the case,
+evidence source, acquisition location, acquisition method, hashing
+method, integrity result, analyst, and acquisition date.
+
+Conclusion:
+
+DF-07 evidence acquisition, preservation, chain-of-custody handling,
+and three-stage SHA-256 integrity verification PASSED.

@@ -1,0 +1,95 @@
+============================================================
+SECURITY REPORT: DF-10 Final Forensic Case Closure and Evidence Validation
+Generated: 2026-08-08 20:24:51
+============================================================
+
+DF-10 — Final Forensic Case Closure & Evidence Validation
+
+Case ID:
+CYBERLAB-DF10-2026-08-08
+
+Case Type:
+Controlled CyberLab digital-forensics laboratory exercise
+
+Evidence Directory:
+Labs/06-Digital-Forensics/evidence/df10_case/
+
+Baseline Hash Record:
+Labs/06-Digital-Forensics/evidence/df10_baseline_hashes.txt
+
+Baseline Metadata Record:
+Labs/06-Digital-Forensics/evidence/df10_baseline_metadata.txt
+
+Final Evidence Inventory:
+Labs/06-Digital-Forensics/evidence/df10_case/final_inventory.txt
+
+Evidence Inventory:
+
+1. case_summary.txt
+2. event_log.txt
+3. evidence_note.txt
+
+Evidence Validation:
+
+All three original evidence files were subjected to final
+SHA-256 integrity validation.
+
+case_summary.txt:
+c0497667ad60f25e16ff98fe925362ba76fffcc5a0580678a58c79da27acd725
+
+event_log.txt:
+06e94eddea6a07c847615ddb8635ef488c3369cded7a34ba7fcf8919ff5dbeab
+
+evidence_note.txt:
+9d9fa711fa79a0877be47fac809358babc1cb5fcf939b432c42f3ffc20060938
+
+Final validation confirmed that all three SHA-256 values matched
+their established baseline values.
+
+Evidence Preservation:
+
+The original evidence files remained unchanged throughout the final
+inventory and validation process.
+
+The final_inventory.txt document was created separately and was not
+included in the original evidence baseline.
+
+Metadata:
+
+Filesystem metadata and file sizes were reviewed as part of the final
+evidence validation process.
+
+Case Closure Assessment:
+
+The evidence inventory is complete.
+
+The baseline SHA-256 records are available.
+
+The baseline metadata record is available.
+
+Final SHA-256 validation PASSED for all three original evidence files.
+
+No integrity mismatch was identified.
+
+No evidence modification was identified after baseline creation.
+
+The evidence is therefore suitable for controlled laboratory case
+closure.
+
+Limitations:
+
+This is a controlled CyberLab laboratory exercise. The evidence does
+not represent real malicious activity and does not establish
+real-world attribution or criminal activity.
+
+Conclusion:
+
+DF-10 final evidence validation, preservation, inventory verification,
+and case-closure assessment PASSED.
+
+CASE STATUS:
+CLOSED — EVIDENCE INTEGRITY VERIFIED
+
+============================================================
+End of report
+============================================================

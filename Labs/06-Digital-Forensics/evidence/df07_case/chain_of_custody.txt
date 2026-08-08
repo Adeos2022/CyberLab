@@ -1,0 +1,47 @@
+DF-07 — CHAIN OF CUSTODY RECORD
+================================
+
+Case ID:
+CYBERLAB-DF07-2026-08-08
+
+Case Description:
+Controlled laboratory exercise for evidence acquisition,
+preservation, integrity verification, and chain-of-custody handling.
+
+Evidence Source:
+Labs/06-Digital-Forensics/evidence/df07_case/original/
+
+Acquisition Location:
+Labs/06-Digital-Forensics/evidence/df07_case/acquisition/
+
+Evidence Type:
+Controlled digital laboratory evidence
+
+Acquisition Method:
+File-level forensic acquisition using cp -p.
+
+Integrity Method:
+SHA-256 cryptographic hashing.
+
+Original Evidence Hash Record:
+Labs/06-Digital-Forensics/evidence/df07_case/original_hashes.txt
+
+Acquisition Hash Record:
+Labs/06-Digital-Forensics/evidence/df07_case/acquisition_hashes.txt
+
+Integrity Verification:
+PASSED — Original and acquisition SHA-256 values matched.
+
+Evidence Handling:
+The original evidence directory is preserved and was not modified
+during acquisition or verification. Subsequent analysis will be
+performed using the verified acquisition copy.
+
+Analyst:
+CyberLab Analyst
+
+Acquisition Date:
+2026-08-08
+
+Status:
+ACQUIRED AND VERIFIED

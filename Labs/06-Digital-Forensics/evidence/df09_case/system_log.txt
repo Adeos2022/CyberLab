@@ -1,0 +1,5 @@
+Aug 08 21:30:01 cyberlab system startup
+Aug 08 21:31:12 cyberlab user session started
+Aug 08 21:32:45 cyberlab document access recorded
+
+CONTROLLED EVENT: document reviewed by analyst

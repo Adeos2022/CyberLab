@@ -1,0 +1,3 @@
+d6bb74e493edb92a2a337c7d910595cd8236f3aa3889b3f6b1b1392983f13a70  Labs/06-Digital-Forensics/evidence/df08_case/activity.log
+ffca82abba0e7aaca01f4753f2698f35b196d51f2e5769b99f68251bcd48aba7  Labs/06-Digital-Forensics/evidence/df08_case/employee_note.txt
+e89c2b39689be87a46d233f41bac62fd240df0f10d21e2e18686a60df5279bd2  Labs/06-Digital-Forensics/evidence/df08_case/system.conf

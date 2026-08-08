@@ -1,0 +1,4 @@
+CYBERLAB CONTROLLED SAMPLE
+No suspicious content at baseline.
+
+CONTROLLED INCIDENT EVENT: downloaded content modified

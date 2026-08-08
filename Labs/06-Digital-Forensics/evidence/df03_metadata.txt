@@ -1,0 +1,9 @@
+
+Metadata for: /data/data/com.termux/files/home/CyberLab/Labs/06-Digital-Forensics/evidence/test.txt
+--------------------------------------------------
+Basic file info:
+  File size (bytes): 65
+  Created: 2026-08-08 18:30:21
+  Modified: 2026-08-08 18:30:21
+
+No EXIF data found (not an image, or metadata was stripped).
