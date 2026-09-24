@@ -1,0 +1,113 @@
+===== SYSTEM =====
+Linux localhost 4.9.190+ #2 SMP PREEMPT Fri Mar 11 02:34:27 CST 2022 armv7l Android
+
+===== DISTRIBUTION =====
+10
+TECNO KD7h
+armeabi-v7a
+
+===== USER =====
+u0_a635
+uid=10635(u0_a635) gid=10635(u0_a635) groups=10635(u0_a635),3003(inet),9997(everybody),20635(u0_a635_cache),50635(all_a635) context=u:r:untrusted_app_27:s0:c123,c258,c512,c768
+
+===== HOST =====
+localhost
+
+===== STORAGE =====
+Filesystem                                      Size  Used Avail Use% Mounted on
+/dev/block/dm-3                                 1.4G  1.4G     0 100% /
+tmpfs                                           917M  1.7M  915M   1% /dev
+tmpfs                                           917M     0  917M   0% /mnt
+tmpfs                                           917M     0  917M   0% /apex
+/dev/block/dm-6                                 2.9M  2.9M     0 100% /apex/com.android.media@301800205
+/dev/block/dm-7                                 776K  748K   12K  99% /apex/com.android.tzdata@299200000
+/dev/block/dm-8                                  14M   14M     0 100% /apex/com.android.media.swcodec@301700016
+/dev/block/loop5                                1.1M  1.1M  8.0K 100% /apex/com.android.resolv@290000000
+/dev/block/loop6                                2.3M  2.3M     0 100% /apex/com.android.conscrypt@290000000
+/dev/block/loop7                                 61M   61M     0 100% /apex/com.android.runtime@1
+/dev/block/loop8                                232K   36K  192K  16% /apex/com.android.apex.cts.shim@1
+/dev/block/dm-4                                 284M  283M     0 100% /vendor
+/dev/block/dm-5                                 1.4G  1.4G     0 100% /product
+/dev/block/platform/bootdevice/by-name/userdata  25G   23G  1.8G  93% /data
+/dev/block/platform/bootdevice/by-name/cache    275M   10M  256M   4% /cache
+/data/media                                      25G   23G  1.8G  93% /storage/emulated
+/mnt/media_rw/6777-11F8                         7.4G  4.4G  3.0G  60% /storage/6777-11F8
+
+===== MEMORY =====
+               total        used        free      shared  buff/cache   available
+Mem:           1.8Gi       1.5Gi        63Mi        20Mi       375Mi       325Mi
+Swap:          1.6Gi       852Mi       798Mi
+
+===== NETWORK INTERFACES =====
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: ccmni0: <NOARP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/[520] 26:d5:4c:00:99:85 brd ff:ff:ff:ff:ff:ff
+3: ccmni1: <NOARP,UP,LOWER_UP> mtu 1500 qdisc mq state UNKNOWN group default qlen 1000
+    link/[520] 3a:cb:7b:4b:bb:96 brd ff:ff:ff:ff:ff:ff
+    inet 10.202.139.230/8 scope global ccmni1
+       valid_lft forever preferred_lft forever
+4: ccmni2: <NOARP> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[520] c6:32:a9:37:71:aa brd ff:ff:ff:ff:ff:ff
+5: ccmni3: <NOARP> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[520] ee:57:ea:0a:f5:db brd ff:ff:ff:ff:ff:ff
+6: ccmni4: <NOARP> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[520] 36:bc:36:97:13:c8 brd ff:ff:ff:ff:ff:ff
+7: ccmni5: <NOARP> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[520] 42:ec:88:18:58:16 brd ff:ff:ff:ff:ff:ff
+8: ccmni6: <NOARP> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[520] ea:e7:34:ce:6f:c7 brd ff:ff:ff:ff:ff:ff
+9: ccmni7: <NOARP> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[520] b6:f6:2f:28:cd:e4 brd ff:ff:ff:ff:ff:ff
+10: ccmni8: <NOARP> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[520] 4e:3b:aa:6d:91:78 brd ff:ff:ff:ff:ff:ff
+11: ccmni9: <NOARP> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[520] 32:14:17:1c:68:9c brd ff:ff:ff:ff:ff:ff
+12: ccmni10: <NOARP> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[520] f6:52:94:93:ce:a0 brd ff:ff:ff:ff:ff:ff
+13: ccmni11: <NOARP> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[520] 86:68:1f:c4:ad:8e brd ff:ff:ff:ff:ff:ff
+14: ccmni12: <NOARP> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[520] 7e:50:31:35:63:9b brd ff:ff:ff:ff:ff:ff
+15: ccmni13: <NOARP> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[520] 86:e7:5c:04:79:60 brd ff:ff:ff:ff:ff:ff
+16: ccmni14: <NOARP> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[520] da:ec:09:89:da:e0 brd ff:ff:ff:ff:ff:ff
+17: ccmni15: <NOARP> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[520] ba:0e:08:b1:0b:ff brd ff:ff:ff:ff:ff:ff
+18: ccmni16: <NOARP> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[520] 8e:77:41:bd:56:5c brd ff:ff:ff:ff:ff:ff
+19: ccmni17: <NOARP> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[520] 62:52:c0:ee:98:63 brd ff:ff:ff:ff:ff:ff
+20: ccmni18: <NOARP> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[520] 9e:4f:fb:5e:41:71 brd ff:ff:ff:ff:ff:ff
+21: ccmni19: <NOARP> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[520] 16:77:b4:5b:5a:c4 brd ff:ff:ff:ff:ff:ff
+22: ccmni20: <NOARP> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[520] 66:73:e1:e5:8e:c0 brd ff:ff:ff:ff:ff:ff
+23: ccmni-lan: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/ether be:39:ac:ec:c9:8a brd ff:ff:ff:ff:ff:ff
+24: ifb0: <BROADCAST,NOARP> mtu 1500 qdisc noop state DOWN group default qlen 32
+    link/ether 0e:fe:fa:3d:52:9a brd ff:ff:ff:ff:ff:ff
+25: ifb1: <BROADCAST,NOARP> mtu 1500 qdisc noop state DOWN group default qlen 32
+    link/ether e2:11:cc:e9:fe:be brd ff:ff:ff:ff:ff:ff
+26: tunl0@NONE: <NOARP> mtu 1480 qdisc noop state DOWN group default qlen 1
+    link/ipip 0.0.0.0 brd 0.0.0.0
+27: ip_vti0@NONE: <NOARP> mtu 1480 qdisc noop state DOWN group default qlen 1
+    link/ipip 0.0.0.0 brd 0.0.0.0
+28: ip6_vti0@NONE: <NOARP> mtu 1500 qdisc noop state DOWN group default qlen 1
+    link/tunnel6 :: brd ::
+29: sit0@NONE: <NOARP> mtu 1480 qdisc noop state DOWN group default qlen 1
+    link/sit 0.0.0.0 brd 0.0.0.0
+30: ip6tnl0@NONE: <NOARP> mtu 1452 qdisc noop state DOWN group default qlen 1
+    link/tunnel6 :: brd ::
+38: wlan0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1460 qdisc mq state DOWN group default qlen 3000
+    link/ether ec:f2:2b:e5:cc:a2 brd ff:ff:ff:ff:ff:ff
+39: p2p0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/ether 6e:fb:19:c9:7a:90 brd ff:ff:ff:ff:ff:ff
+40: ap0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/ether ea:f2:2b:e5:cc:a2 brd ff:ff:ff:ff:ff:ff

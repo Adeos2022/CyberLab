@@ -1,0 +1,61 @@
+=== A ===
+;; communications error to 8.8.8.8#53: timed out
+;; communications error to 8.8.8.8#53: timed out
+;; communications error to 8.8.8.8#53: timed out
+;; communications error to 8.8.4.4#53: timed out
+
+; <<>> DiG 9.20.27 <<>> maroonsfc.co.ug A
+;; global options: +cmd
+;; no servers could be reached
+=== NS ===
+;; communications error to 8.8.8.8#53: timed out
+;; communications error to 8.8.8.8#53: timed out
+;; communications error to 8.8.8.8#53: timed out
+;; communications error to 8.8.4.4#53: timed out
+
+; <<>> DiG 9.20.27 <<>> maroonsfc.co.ug NS
+;; global options: +cmd
+;; no servers could be reached
+=== MX ===
+;; communications error to 8.8.8.8#53: timed out
+;; communications error to 8.8.8.8#53: timed out
+;; communications error to 8.8.8.8#53: timed out
+;; communications error to 8.8.4.4#53: timed out
+
+; <<>> DiG 9.20.27 <<>> maroonsfc.co.ug MX
+;; global options: +cmd
+;; no servers could be reached
+=== SOA ===
+;; communications error to 8.8.8.8#53: timed out
+;; communications error to 8.8.8.8#53: timed out
+;; communications error to 8.8.8.8#53: timed out
+;; communications error to 8.8.4.4#53: timed out
+
+; <<>> DiG 9.20.27 <<>> maroonsfc.co.ug SOA
+;; global options: +cmd
+;; no servers could be reached
+=== TXT ===
+;; communications error to 8.8.8.8#53: timed out
+;; communications error to 8.8.8.8#53: timed out
+;; communications error to 8.8.8.8#53: timed out
+;; communications error to 8.8.4.4#53: timed out
+
+; <<>> DiG 9.20.27 <<>> maroonsfc.co.ug TXT
+;; global options: +cmd
+;; no servers could be reached
+=== PTR ===
+;; communications error to 8.8.8.8#53: timed out
+;; communications error to 8.8.8.8#53: timed out
+;; communications error to 8.8.8.8#53: timed out
+;; communications error to 8.8.4.4#53: timed out
+
+; <<>> DiG 9.20.27 <<>> -x 104.194.11.128
+;; global options: +cmd
+;; no servers could be reached
+=== HTTP HEADERS ===
+HTTP/2 200 
+content-type: text/html; charset=UTF-8
+date: Wed, 09 Sep 2026 20:44:27 GMT
+server: LiteSpeed
+alt-svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000
+

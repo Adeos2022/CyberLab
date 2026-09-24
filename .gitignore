@@ -1,4 +1,32 @@
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# OS/editor
 .DS_Store
+.vscode/
+.idea/
+
+# Secrets and credentials
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+credentials.*
+secrets.*
+
+# Databases / local state
+*.sqlite
+*.sqlite3
+*.db
+
+# Local security evidence
+Reports/PhoneSecurity/
+Reports/WiFi/
+
+# Generated integrity baseline
 Reports/integrity_baseline.json
