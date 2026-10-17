@@ -30,3 +30,7 @@ Reports/WiFi/
 
 # Generated integrity baseline
 Reports/integrity_baseline.json
+
+# Logs and raw investigation evidence
+*.log
+**/evidence/
