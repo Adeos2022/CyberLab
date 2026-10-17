@@ -1,0 +1,8 @@
+Checking /privacy
+HTTP 404 | https://sycom.academy/privacy
+Checking /privacy-policy
+HTTP 404 | https://sycom.academy/privacy-policy
+Checking /terms
+HTTP 301 | https://sycom.academy/terms
+Checking /terms-and-conditions
+HTTP 404 | https://sycom.academy/terms-and-conditions

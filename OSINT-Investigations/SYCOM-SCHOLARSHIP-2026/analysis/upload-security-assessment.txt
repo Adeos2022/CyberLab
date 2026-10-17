@@ -1,0 +1,81 @@
+SYCOM ACADEMY SCHOLARSHIP INVESTIGATION
+Finding: File Upload Implementation
+
+Evidence source:
+evidence/js-bundles/page-ade5a40439ef0148.js
+evidence/js-bundles/3463-93839e69ddc07f5a.js
+
+OBSERVED:
+1. The frontend implements file uploads using FormData.
+2. The upload endpoint is:
+   /api/v1/landing/{slug}/upload
+3. The configured maximum file size is 10 MiB.
+4. The frontend expects a successful response containing a token.
+5. The returned token is passed into the form state.
+6. The returned filename is displayed to the applicant.
+7. The form can subsequently submit applicant answers containing
+   the uploaded-file reference.
+
+NOT ESTABLISHED:
+1. Server-side file-size enforcement.
+2. Allowed file extensions and MIME types.
+3. Malware scanning.
+4. Upload-token expiration and access restrictions.
+5. Storage encryption and retention arrangements.
+6. Backend authentication and authorisation controls.
+
+ASSESSMENT:
+The client-side upload workflow is identifiable and uses a
+token-based file reference. Its backend security cannot be
+established from the downloaded JavaScript alone.
+
+Classification:
+Observed implementation; backend security unverified.
+
+ADDITIONAL OBSERVATIONS — 17 OCTOBER 2026
+
+1. Anti-spam honeypot:
+The downloaded application HTML contains a hidden text input named
+"website". It is positioned off-screen, excluded from keyboard navigation,
+hidden from assistive technology, and has browser autocomplete disabled.
+This is consistent with an anti-spam honeypot implementation.
+
+Backend enforcement has not been verified. No form submission or
+live-server testing was performed.
+
+2. Page metadata:
+The application page title is "Sycom Talent Pipeline Programme 2026/27".
+However, its HTML description and Open Graph description both state
+"CRM and email marketing platform".
+
+This suggests generic or default metadata may have been left unchanged.
+It is a configuration/quality observation, not proof of malicious activity.
+
+3. Evidence limitations:
+These findings come from a locally saved HTML response.
+They do not establish the security of backend validation, the identity
+of the scholarship operator, or the legitimacy of the advertised benefits.
+
+ADDITIONAL OBSERVATIONS — 17 OCTOBER 2026
+
+1. Anti-spam honeypot:
+The downloaded application HTML contains a hidden text input named
+"website". It is positioned off-screen, excluded from keyboard navigation,
+hidden from assistive technology, and has browser autocomplete disabled.
+This is consistent with an anti-spam honeypot implementation.
+
+Backend enforcement has not been verified. No form submission or
+live-server testing was performed.
+
+2. Page metadata:
+The application page title is "Sycom Talent Pipeline Programme 2026/27".
+However, its HTML description and Open Graph description both state
+"CRM and email marketing platform".
+
+This suggests generic or default metadata may have been left unchanged.
+It is a configuration/quality observation, not proof of malicious activity.
+
+3. Evidence limitations:
+These findings come from a locally saved HTML response.
+They do not establish the security of backend validation, the identity
+of the scholarship operator, or the legitimacy of the advertised benefits.
